@@ -1,0 +1,58 @@
+.footer_knhd_1_0_0{
+    background: #234E88;
+    padding: 30px 0;
+    text-align: center;
+    &__logo{
+        margin-bottom: 20px;
+        img{
+            max-width: 230px;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        > a{
+            margin: 0 10px;
+        }
+    }
+    &__title{
+        color: #FEC465;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 21px;
+        margin: 10px 0;
+    }
+    &__info{
+        color: #fff;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    &__hotline{
+        color: #FEC465;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            max-width: 30px;
+            width: 100%;
+            height: auto;
+            margin-right: 5px;
+        }
+    }
+    @media (max-width: 430px){
+        &__logo{
+            margin-bottom: 10px;
+            img{
+                max-width: 200px;
+            }
+        } 
+        &__hotline{
+            font-size: 21px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.slider_knhd_1_0_0{
+    &__img{
+        position: relative;
+        padding-top: 20.833%;
+        img{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
+}

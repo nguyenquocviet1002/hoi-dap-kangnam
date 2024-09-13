@@ -1,0 +1,46 @@
+.create_knhd_1_0_0{
+    background-image: url(../images/create-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 20px;
+    &__title{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    &__number{
+        color: #FEC465;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: normal;
+        margin: 5px 0;
+    }
+    &__sub{
+        color: #fff;
+        font-style: italic;
+    }
+    &__btn{
+        background-color: #FEC465;
+        color: #2D60AC;
+        text-transform: uppercase;
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+        border-radius: 5px;
+        padding: 7px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: all 0.25s linear;
+        &:hover{
+            background-color: #FFA614;
+            color: #093B86;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.header_knhd_1_0_0{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 1px 3px 0 #e1e1e1;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        max-width: 170px;
+    }
+    &__action, &__btn{
+        display: flex;
+        align-items: center;
+    }
+    &__btn{
+        cursor: pointer;
+        p{
+            margin: 0;
+        }
+    }
+    &__hotline{
+        margin-right: 30px;
+    }
+    &__icon{
+        width: 40px;
+        margin-right: 10px;
+    }
+    &__text{
+        &Small{
+            font-size: 13px;
+            color: #C9C6C6;
+        }
+        &Bold{
+            font-weight: 600;
+        }
+    }
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    @media (max-width: 767px){
+        &__logo{
+            width: 140px;
+        }
+        &__hotline{
+            margin-right: 10px;
+        }
+        &__icon{
+            width: 35px;
+            margin-right: 0;
+        }
+        &__text{
+            display: none;
+        }
+    }
+}

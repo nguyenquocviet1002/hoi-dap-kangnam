@@ -1,0 +1,19 @@
+.hot_knhd_1_0_0{
+    margin-top: 20px;
+    &__head{
+        text-align: center;
+        font-weight: 600;
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    &__item{
+        font-weight: 500;
+        display: block;
+        border-bottom: 1px solid #9C9C9C;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+        &:hover{
+            color: #0051cb;
+        }
+    }
+}

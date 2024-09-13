@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cate_knhd_1_0_0</title>
+    <link rel="stylesheet" href="https://huudinh.github.io/assets/sass/lib.min.css">
+    <link rel="stylesheet" href="sass/cate_knhd_1_0_0.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-3 col-12">
+            <!--  -->
+            <section class="cate_knhd_1_0_0">
+                <div class="cate_knhd_1_0_0__title">Chuyên mục</div>
+                <div class="cate_knhd_1_0_0__body">
+                    <a href="#" class="cate_knhd_1_0_0__item active" data-id="Thẩm mỹ mắt">Thẩm mỹ Mắt</a>
+                    <a href="#" class="cate_knhd_1_0_0__item" data-id="Thẩm mỹ mũi">Thẩm mỹ Mũi</a>
+                    <a href="#" class="cate_knhd_1_0_0__item" data-id="Chỉnh hình hàm mặt">Chỉnh hình Hàm mặt</a>
+                    <a href="#" class="cate_knhd_1_0_0__item" data-id="Thẩm mỹ ngực">Thẩm mỹ Ngực</a>
+                </div>
+            </section>
+            <!--  -->
+        </div>
+    </div>
+
+    <script>
+        const activeCate_knhd_1_0_0 = 'Chỉnh hình hàm mặt';
+        const btnsCate_knhd_1_0_0 = document.querySelectorAll('.cate_knhd_1_0_0__item');
+        btnsCate_knhd_1_0_0.forEach(item => {
+            item.classList.remove('active');
+            const id = item.getAttribute('data-id');
+            if(id === activeCate_knhd_1_0_0){
+                item.classList.add('active');
+            };
+        });
+    </script>
+</body>
+</html>

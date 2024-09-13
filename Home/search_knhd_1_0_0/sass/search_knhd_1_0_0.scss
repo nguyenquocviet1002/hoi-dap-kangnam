@@ -1,0 +1,94 @@
+.search_knhd_1_0_0{
+    margin-top: 20px;
+    &__title{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    &__sub{
+        text-align: center;
+        font-weight: 600;
+        font-size: 21px;
+    }
+    &__bar{
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+    }
+    &__input{
+        flex: 1;
+        position: relative;
+        input{
+            width: 100%;
+            border: 1px solid #2D60AC;
+            border-radius: 5px;
+            color: #2D60AC;
+            padding: 10px 25px 10px 10px;
+            background-color: #F5F5F5;
+        }
+    }
+    &__btn{
+        width: 45px;
+        border: none;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 10px;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__dropdown{
+        display: none;
+        position: absolute;
+        top: 100%;
+        background-color: #F9F9F9;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 3px 0 #a1a1a1;
+    }
+    &__item{
+        border-bottom: 1px solid #C9C6C6;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        align-items: flex-start;
+    }
+    &__icon{
+        background-image: url('../images/icon-search2.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 20px;
+        height: 20px;
+        margin-right: 7px;
+        margin-top: 1px;
+    }
+    &__link{
+        font-style: italic;
+        &:hover{
+            color: #093B86;
+        }
+    }
+    &__close{
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+    @media (max-width: 767px){
+        &__title{
+            font-size: 21px;
+        }
+        &__sub{
+            font-size: 18px;
+        }
+        &__bar{
+            margin-top: 10px;
+        }
+    }
+}

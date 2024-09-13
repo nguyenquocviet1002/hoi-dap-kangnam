@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider_knhd_1_0_0</title>
+    <link rel="stylesheet" href="https://huudinh.github.io/assets/sass/lib.min.css">
+    <link rel="stylesheet" href="sass/slider_knhd_1_0_0.min.css">
+</head>
+
+<body>
+    <section class="slider_knhd_1_0_0">
+        <div class="slider_knhd_1_0_0__img">
+            <img width="1920" height="400" src="images/bn.jpg" alt="">
+        </div>
+    </section>
+
+    <script>
+        function runSlide({ data = [], position = '', isPagination = false, isControl = false, time = 6000, controlPrev, controlNext }) {
+            try {
+                let index = 0;
+
+                const innerSlide = document.createElement('div');
+                innerSlide.classList.add('inner__slide');
+                document.querySelector(`.${position}`).appendChild(innerSlide);
+                document.querySelector(`.${position}`).children[0].classList.add(`${position}-index`);
+
+                const removeSlideIndex = () => {
+                    if (document.querySelector(`.${position}-index`)) {
+                        document.querySelector(`.${position}-index`).remove();
+                    }
+                }
+                const myTimer = () => {
+                    if (index >= data.length - 1) {
+                        renderCard(0);
+                        index = 0;
+                    } else {
+                        removeSlideIndex();
+                        renderCard(++index);
+                    }
+                }
+                if(data.length > 1){
+                    let myInter = setInterval(myTimer, time)
+                }
+
+                const activePagination = (index) => {
+                    const allPagination = document.querySelectorAll(`.${position} .pagination__item`);
+                    for (let i = 0; i < allPagination.length; i++) {
+                        allPagination[i].classList.remove('active');
+                    }
+                    document.getElementById(`pagination-${position}-${index}`).classList.add('active');
+                }
+
+                const renderCard = (index) => {
+                    document.querySelector(`.${position} .inner__slide`).innerHTML = data[index];
+                    isPagination ? activePagination(index) : '';
+
+                    const lazy = document.querySelectorAll(`.${position} .lazy`);
+                    lazy.forEach(item => {
+                        if (checkVisible(item)) {
+                            const src = item.getAttribute('data-src');
+                            item.setAttribute('src', src);
+                        }
+                    })
+                }
+
+                const changeSlide = (e) => {
+                    removeSlideIndex();
+                    const id = e.getAttribute('data-id');
+                    index = Number(id);
+                    renderCard(id);
+                    clearInterval(myInter);
+                    myInter = setInterval(myTimer, time);
+                }
+
+                const changeSlideControl = (id) => {
+                    if (id > data.length - 1) {
+                        id = 0;
+                        index = 0;
+                    } else if (id < 0) {
+                        id = data.length - 1;
+                        index = data.length - 1;
+                    }
+                    renderCard(id);
+                    clearInterval(myInter);
+                    myInter = setInterval(myTimer, time);
+                }
+
+                const pagination = () => {
+                    let html = '';
+                    for (let i = 0; i < data.length; i++) {
+                        html += `<span data-id='${i}' id="pagination-${position}-${i}" class="pagination__item"></span>`
+                    }
+                    document.querySelector(`.${position}`).insertAdjacentHTML("beforeend", `<div class="pagination">${html}</div>`);
+                    const paginationItem = document.querySelectorAll(`.${position} .pagination__item`);
+                    document.querySelector(`.${position} .pagination`).style = 'display: flex; gap: 5px;'
+                    paginationItem.forEach(item => {
+                        item.style = 'display: block; width: 10px; height: 10px; background: #d5d5d5; border-radius: 100%;'
+                    })
+
+                    for (let i = 0; i < paginationItem.length; i++) {
+                        paginationItem[i].addEventListener('click', () => changeSlide(paginationItem[i]));
+                    }
+                    isPagination ? activePagination(0) : '';
+                }
+                isPagination ? pagination() : '';
+
+                const nextSlide = () => {
+                    removeSlideIndex();
+                    changeSlideControl(++index);
+                }
+
+                const prevSlide = () => {
+                    removeSlideIndex();
+                    changeSlideControl(--index);
+                }
+
+                const nextPrevSlide = () => {
+                    const box = document.createElement('div');
+                    const btnPrev = document.createElement('button');
+                    const btnNext = document.createElement('button');
+                    box.className = 'control';
+                    btnPrev.className = 'item__btn prev';
+                    btnPrev.innerHTML = controlPrev ? controlPrev : "";
+                    btnNext.className = 'item__btn next';
+                    btnNext.innerHTML = controlNext ? controlNext : "";
+                    box.appendChild(btnPrev);
+                    box.appendChild(btnNext);
+                    document.querySelector(`.${position}`).appendChild(box);
+
+                    document.querySelector(`.${position} .next`).addEventListener('click', nextSlide);
+                    document.querySelector(`.${position} .prev`).addEventListener('click', prevSlide);
+                }
+                isControl ? nextPrevSlide() : '';
+
+                function checkVisible(elm) {
+                    let rect = elm.getBoundingClientRect();
+                    let viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+                    return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+                }
+            } catch (error) {
+                console.log(error)
+            }
+        }
+
+        const dataSlider_knhd_1_0_0 = [
+            `
+           <div class="slider_knhd_1_0_0__img">
+                <img width="1920" height="400" src="images/bn.jpg" alt="">
+            </div>
+            `,
+        ]
+
+        runSlide({
+            data: dataSlider_knhd_1_0_0,
+            position: 'slider_knhd_1_0_0',
+        })
+
+    </script>
+</body>
+
+</html>
