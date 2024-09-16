@@ -1,0 +1,86 @@
+.doctor_knhd_1_1_0{
+    margin-top: 20px;
+    &__item{
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    &__avt{
+        flex: 1;
+        margin-right: 5px;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__info{
+        width: 75%;
+    }
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #093B86;
+        border-bottom: 1px solid #093B86;
+        padding: 0 10px 5px;
+        margin-bottom: 5px;
+    }
+    &__name{
+        font-size: 14px;
+        p{
+            margin: 0;
+        }
+    }
+    &__bold{
+        font-weight: 600;
+        color: #D1A969;
+        text-transform: uppercase;
+    }
+    &__year{
+        border: 1px solid #093b86;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 11px;
+        padding: 1px 5px;
+        margin-left: 5px;
+    }
+    &__position{
+        text-align: center;
+        color: #093B86;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    @media (max-width: 1200px){
+        &__item{
+            flex-wrap: wrap;
+        }
+        &__avt{
+            flex: none;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__info{
+            width: 100%;
+        }
+    }
+    @media (max-width: 767px){
+        &__avt{
+            flex: 1;
+            margin-right: 5px;
+        }
+        &__info{
+            width: 80%;
+        }
+        &__name, &__position{
+            font-size: 15px;
+        }
+    }
+}

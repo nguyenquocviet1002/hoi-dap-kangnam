@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer_knhd_1_0_0</title>
+    <link rel="stylesheet" href="https://huudinh.github.io/assets/sass/lib.min.css">
+    <link rel="stylesheet" href="sass/customer_knhd_1_0_0.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <!--  -->
+                <section class="customer_knhd_1_0_0">
+                    <div class="customer_knhd_1_0_0__scroll">
+                        <div class="customer_knhd_1_0_0__item">
+                            <div class="customer_knhd_1_0_0__head">
+                                <div class="customer_knhd_1_0_0__text">Khách hàng nói gì về <span>Kangnam</span></div>
+                                <div class="customer_knhd_1_0_0__logo"></div>
+                            </div>
+                            <div class="customer_knhd_1_0_0__meta">
+                                <div class="customer_knhd_1_0_0__info">
+                                    <div class="customer_knhd_1_0_0__avatar"><img width="40" height="40" src="images/avatar.png" alt=""></div>
+                                    <div>
+                                        <p class="customer_knhd_1_0_0__name">Nguyễn Thu Hoài</p>
+                                        <p class="customer_knhd_1_0_0__position">Nhân viên văn phòng</p>
+                                    </div>
+                                </div>
+                                <div class="customer_knhd_1_0_0__review">
+                                    <div class="customer_knhd_1_0_0__cmt">“Chất lượng”</div>
+                                    <div class="customer_knhd_1_0_0__star"><img width="86" height="14" src="images/star.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="customer_knhd_1_0_0__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                        <div class="customer_knhd_1_0_0__item">
+                            <div class="customer_knhd_1_0_0__head">
+                                <div class="customer_knhd_1_0_0__text">Khách hàng nói gì về <span>Kangnam</span></div>
+                                <div class="customer_knhd_1_0_0__logo"></div>
+                            </div>
+                            <div class="customer_knhd_1_0_0__meta">
+                                <div class="customer_knhd_1_0_0__info">
+                                    <div class="customer_knhd_1_0_0__avatar"><img width="40" height="40" src="images/avatar.png" alt=""></div>
+                                    <div>
+                                        <p class="customer_knhd_1_0_0__name">Nguyễn Thu Hoài</p>
+                                        <p class="customer_knhd_1_0_0__position">Nhân viên văn phòng</p>
+                                    </div>
+                                </div>
+                                <div class="customer_knhd_1_0_0__review">
+                                    <div class="customer_knhd_1_0_0__cmt">“Chất lượng tuyệt vời”</div>
+                                    <div class="customer_knhd_1_0_0__star"><img width="86" height="14" src="images/star.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="customer_knhd_1_0_0__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </div>
+                        </div>
+                        <div class="customer_knhd_1_0_0__item">
+                            <div class="customer_knhd_1_0_0__head">
+                                <div class="customer_knhd_1_0_0__text">Khách hàng nói gì về <span>Kangnam</span></div>
+                                <div class="customer_knhd_1_0_0__logo"></div>
+                            </div>
+                            <div class="customer_knhd_1_0_0__meta">
+                                <div class="customer_knhd_1_0_0__info">
+                                    <div class="customer_knhd_1_0_0__avatar"><img width="40" height="40" src="images/avatar.png" alt=""></div>
+                                    <div>
+                                        <p class="customer_knhd_1_0_0__name">Nguyễn Thu Hoài</p>
+                                        <p class="customer_knhd_1_0_0__position">Nhân viên văn phòng</p>
+                                    </div>
+                                </div>
+                                <div class="customer_knhd_1_0_0__review">
+                                    <div class="customer_knhd_1_0_0__cmt">“Chất lượng tuyệt vời”</div>
+                                    <div class="customer_knhd_1_0_0__star"><img width="86" height="14" src="images/star.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="customer_knhd_1_0_0__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // func move item
+        const funcDragCustomer = (element) => {
+            let mouseDown = false;
+            let startX, scrollLeft;
+            const slider = document.querySelector(element);
+
+            const startDragging = (e) => {
+                mouseDown = true;
+                startX = e.pageX - slider.offsetLeft;
+                scrollLeft = slider.scrollLeft;
+            }
+
+            const stopDragging = (e) => {
+                mouseDown = false;
+            }
+
+            const move = (e) => {
+                e.preventDefault();
+                if (!mouseDown) { return; }
+                const x = e.pageX - slider.offsetLeft;
+                const scroll = x - startX;
+                slider.scrollLeft = scrollLeft - scroll;
+            }
+            // Add the event listeners
+            slider.addEventListener('mousemove', move, false);
+            slider.addEventListener('mousedown', startDragging, false);
+            slider.addEventListener('mouseup', stopDragging, false);
+            slider.addEventListener('mouseleave', stopDragging, false);
+        };
+        funcDragCustomer('.customer_knhd_1_0_0');
+    </script>
+</body>
+</html>
