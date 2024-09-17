@@ -1,7 +1,6 @@
 .answer_knhd_1_0_0{
     margin-top: 30px;
     &__item{
-        border-bottom: 1px solid #9C9C9C;
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
@@ -26,10 +25,17 @@
         }
     }
     &__name{
-        color: #D1A969;
+        color: #093B86;
         font-weight: 500;
         margin-right: 10px;
         font-size: 16px;
+        span{
+            display: block;
+            font-size: 13px;
+            color: #000;
+            font-style: italic;
+            font-weight: 400;
+        }
     }
     &__cate{
         background-color: #d1a969;
@@ -56,9 +62,14 @@
             color: #0045ad;
         }
     }
+    &__content{
+        margin-top: 10px;
+        border-bottom: 1px solid #9C9C9C;
+        padding-bottom: 20px;
+    }
     &__action{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
         margin-top: 10px;
         flex-wrap: wrap;
@@ -74,13 +85,13 @@
         margin-right: 5px;
         transition: all 0.25s linear;
         &--1{
-            background-image: url('../images/icon-comment.svg');
+            background-image: url('../images/icon-like.svg');
         }
         &--2{
-            background-image: url('../images/icon-eye.svg');
+            background-image: url('../images/icon-dislike.svg');
         }
         &--3{
-            background-image: url('../images/icon-check.svg');
+            background-image: url('../images/icon-reply.svg');
         }
     }
     &__comment, &__view{
@@ -96,13 +107,32 @@
         &:hover{
             background-color: #093B86;
             color: #fff;
-            .question_knhd_1_0_0__icon{
-                filter: brightness(0) invert(1);
+            .answer_knhd_1_0_0__icon--1{
+                background-image: url('../images/icon-like.svg') !important;
+            }
+            .answer_knhd_1_0_0__icon--2{
+                background-image: url('../images/icon-dislike.svg') !important;
             }
         }
     }
     &__comment{
         margin-right: 10px;
+        &.active{
+            .answer_knhd_1_0_0__icon--1{
+                background-image: url('../images/icon-liked.svg');
+            }
+        }
+    }
+    &__view{
+        &.active{
+            .answer_knhd_1_0_0__icon--2{
+                background-image: url('../images/icon-disliked.svg');
+            }
+        }
+    }
+    &__reply{
+        font-weight: 600;
+        color: #093B86;
     }
     &__answer{
         background-color: #093B86;
