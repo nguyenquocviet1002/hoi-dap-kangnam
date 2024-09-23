@@ -1,27 +1,11 @@
 .create_knhd_1_0_0{
-    background-image: url(../images/create-bg.jpg);
+    background-image: url(https://hoidap.benhvienthammykangnam.vn/wp-content/themes/KnAnser2024/Module/Category/create_knhd_1_0_0/images/create-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-top: 20px;
-    &__title{
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 16px;
-    }
-    &__number{
-        color: #FEC465;
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: normal;
-        margin: 5px 0;
-    }
+    border-radius: 15px;
     &__sub{
         color: #fff;
         font-style: italic;

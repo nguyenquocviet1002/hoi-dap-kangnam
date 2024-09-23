@@ -1,26 +1,30 @@
 .cate_knhd_1_0_0{
-    margin-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 15px;
+    padding-top: 15px;
+    overflow: hidden;
     &__title{
         font-weight: 600;
         font-size: 18px;
+        padding: 0 10px;
     }
     &__body{
-        margin-top: 5px;
+        margin-top: 10px;
     }
     &__item{
         display: block;
         width: 100%;
-        margin-bottom: 5px;
-        padding: 5px 5px 5px 0;
+        padding: 8px 10px;
         transition: all 0.25s linear;
         &:hover{
             background: #ddd;
-            padding-left: 5px;
+            padding-left: 15px;
         }
         &.active{
             background: #D1A969 !important;
             color: #fff;
-            padding-left: 5px;
+            padding-left: 10px;
         }
     }
     @media (max-width: 768px){

@@ -1,0 +1,68 @@
+.topic_knhd_1_0_0{
+    margin-top: 20px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 15px 0;
+    &__head{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__arrow{
+        width: 20px;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        &--1{
+            margin-right: 5px;
+        }
+        &--2{
+            transform: scale(-1);
+            margin-left: 5px;
+        }
+    }
+    &__list{
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: #c7c7c7 #f5f5f5;
+        display: flex;
+        flex: 1;
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        &::-webkit-scrollbar {
+            width: 0px; /* For Chrome, Safari, and Opera */
+        }
+        &.smooth{
+            scroll-behavior: smooth; 
+        }
+    }
+    &__scroll{
+        display: flex;
+        &.hide{
+            pointer-events: none;
+        }
+    }
+    &__item{
+        width: max-content;
+        border: 1px solid #093b86;
+        color: #093b86;
+        border-radius: 15px;
+        padding: 5px 15px;
+        margin: 0 5px;
+        user-select: none;
+        transition: all 0.25s linear;
+        &:hover{
+            color: #fff;
+            background-color: #093b86;
+        }
+    }
+}

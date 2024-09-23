@@ -1,5 +1,4 @@
 .search_knhd_1_0_0{
-    margin-top: 20px;
     &__title{
         text-align: center;
         text-transform: uppercase;
@@ -13,7 +12,7 @@
     }
     &__bar{
         display: flex;
-        margin-top: 20px;
+        margin-top: 15px;
         align-items: center;
     }
     &__input{
@@ -22,20 +21,21 @@
         input{
             width: 100%;
             border: 1px solid #2D60AC;
-            border-radius: 5px;
+            border-radius: 15px;
             color: #2D60AC;
-            padding: 10px 25px 10px 10px;
+            padding: 8px 25px 8px 10px;
             background-color: #F5F5F5;
         }
     }
     &__btn{
-        width: 45px;
+        width: 41px;
         border: none;
         background: transparent;
         padding: 0;
         cursor: pointer;
         margin-left: 10px;
         img{
+            border-radius: 15px;
             width: 100%;
             height: auto;
             display: block;
@@ -47,28 +47,32 @@
         top: 100%;
         background-color: #F9F9F9;
         border-radius: 5px;
-        padding: 10px;
+        padding: 10px 10px 0;
         box-shadow: 0 2px 3px 0 #a1a1a1;
+        width: 100%;
     }
     &__item{
         border-bottom: 1px solid #C9C6C6;
-        margin-bottom: 5px;
-        padding-bottom: 5px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
         display: flex;
         align-items: flex-start;
     }
     &__icon{
-        background-image: url('../images/icon-search2.svg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 20px;
-        height: 20px;
-        margin-right: 7px;
-        margin-top: 1px;
+        width: 17px;
+        height: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #093B86;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 13px;
+        margin-top: 3px;
+        margin-right: 5px;
     }
     &__link{
-        font-style: italic;
+        flex: 1;
         &:hover{
             color: #093B86;
         }

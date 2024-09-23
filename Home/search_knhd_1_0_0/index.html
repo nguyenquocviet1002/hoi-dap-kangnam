@@ -8,52 +8,28 @@
     <link rel="stylesheet" href="sass/search_knhd_1_0_0.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <!--  -->
-                <section class="search_knhd_1_0_0">
-                    <div class="search_knhd_1_0_0__title">câu hỏi của bạn là gì?</div>
-                    <div class="search_knhd_1_0_0__sub">Nhận câu trả lời ngay lập tức</div>
-                    <div class="search_knhd_1_0_0__bar">
-                        <div class="search_knhd_1_0_0__input">
-                            <input type="text" placeholder="Gõ câu hỏi...">
-                            <div class="search_knhd_1_0_0__close"><img src="images/icon-close.svg" alt=""></div>
-                            <div class="search_knhd_1_0_0__dropdown">
-                                <div class="search_knhd_1_0_0__item">
-                                    <span class="search_knhd_1_0_0__icon"></span>
-                                    <a href="#" class="search_knhd_1_0_0__link">Sau khi thực hiện phẫu thuật nâng, chỉnh sửa mũi bao lâu thì bệnh nhân có thể đi làm bình thường được?</a>
-                                </div>
-                                <div class="search_knhd_1_0_0__item">
-                                    <span class="search_knhd_1_0_0__icon"></span>
-                                    <a href="#" class="search_knhd_1_0_0__link">Sau khi thực hiện phẫu thuật nâng, chỉnh sửa mũi bao lâu thì bệnh nhân có thể đi làm bình thường được?</a>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="search_knhd_1_0_0__btn"><img src="images/icon-search.svg" alt=""></button>
+    <section class="search_knhd_1_0_0">
+        <div class="search_knhd_1_0_0__title">Hỏi đáp thẩm mỹ</div>
+        <div class="search_knhd_1_0_0__sub">Gõ câu hỏi</div>
+        <div class="search_knhd_1_0_0__bar">
+            <div class="search_knhd_1_0_0__input">
+                <input type="text" placeholder="Gõ câu hỏi...">
+                <div class="search_knhd_1_0_0__close"><img src="images/icon-close.svg" alt=""></div>
+                <div class="search_knhd_1_0_0__dropdown">
+                    <div class="search_knhd_1_0_0__item">
+                        <span class="search_knhd_1_0_0__icon">1</span>
+                        <a href="#" class="search_knhd_1_0_0__link">Sau khi thực hiện phẫu thuật nâng, chỉnh sửa mũi bao lâu thì bệnh nhân có thể đi làm bình thường được?</a>
                     </div>
-                </section>
-                <!--  -->
+                    <div class="search_knhd_1_0_0__item">
+                        <span class="search_knhd_1_0_0__icon">2</span>
+                        <a href="#" class="search_knhd_1_0_0__link">Sau khi thực hiện phẫu thuật nâng, chỉnh sửa mũi bao lâu thì bệnh nhân có thể đi làm bình thường được?</a>
+                    </div>
+                </div>
             </div>
+            <button class="search_knhd_1_0_0__btn"><img src="images/icon-search.svg" alt=""></button>
         </div>
-    </div>
+    </section>
 
-    <script>
-        const inputSearch_knhd_1_0_0 = document.querySelector('.search_knhd_1_0_0__input input[type="text"]');
-        const closeSearch_knhd_1_0_0 = document.querySelector('.search_knhd_1_0_0__close');
-        inputSearch_knhd_1_0_0.addEventListener('input', e => {
-            let value = e.target.value;
-            if(value.length > 0){
-                closeSearch_knhd_1_0_0.style.display = 'block';
-            } else {
-                closeSearch_knhd_1_0_0.style.display = 'none';
-            }
-            
-        });
-        closeSearch_knhd_1_0_0.addEventListener('click', () => {
-            inputSearch_knhd_1_0_0.value = '';
-            closeSearch_knhd_1_0_0.style.display = 'none';
-        })
-    </script>
+    <script src="js/search_knhd_1_0_0.js"></script>
 </body>
 </html>
