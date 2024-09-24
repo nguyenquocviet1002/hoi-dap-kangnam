@@ -1,5 +1,5 @@
 const htmlSearch_knhd_2_0_0 = `
-<div class="search_knhd_2_0_0 modal" id="search_knhd_2_0_0" style="display: flex;">
+<div class="search_knhd_2_0_0 modal" id="search_knhd_2_0_0__modal" style="display: flex;">
         <div class="modal-bg" onclick="closeSearch_knhd_2_0_0()"></div>
         <div class="search_knhd_2_0_0__box modal-box animate-opacity">
             <div class="search_knhd_2_0_0__close modal-close" onclick="closeSearch_knhd_2_0_0()">×</div>
@@ -29,7 +29,7 @@ const htmlSearch_knhd_2_0_0 = `
 const btnSearch_knhd_2_0_0 = document.querySelector('.search_knhd_2_0_0__pSearch');
 
 const closeSearch_knhd_2_0_0 = () => {
-    document.querySelector('#search_knhd_2_0_0').remove();
+    document.querySelector('#search_knhd_2_0_0__modal').remove();
 }
 
 btnSearch_knhd_2_0_0.addEventListener('click', () => {

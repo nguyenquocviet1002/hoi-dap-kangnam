@@ -33,6 +33,9 @@
             display: flex;
             flex-wrap: wrap;
         }
+        &__title{
+            padding: 0;
+        }
         &__item{
             width: fit-content;
             margin-right: 5px;

@@ -1,7 +1,7 @@
 .doctor_knhd_1_1_0{
     &__item{
         background-color: #F2F2F2;
-        border-radius: 5px;
+        border-radius: 15px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -71,6 +71,7 @@
         }
     }
     @media (max-width: 767px){
+        margin-top: 10px;
         &__avt{
             flex: 1;
             margin-right: 5px;
