@@ -1,9 +1,9 @@
 .question_knhd_1_0_1{
-    margin-top: 30px;
     &__item{
         border-bottom: 1px solid #9C9C9C;
-        padding-bottom: 20px;
+        padding: 10px 10px 20px;
         margin-bottom: 20px;
+        border-radius: 15px;
     }
     &__meta{
         display: flex;
@@ -20,6 +20,7 @@
         width: 40px;
         margin-right: 10px;
         img{
+            border-radius: 100%;
             width: 100%;
             height: auto;
             display: block;
@@ -35,13 +36,12 @@
         background-color: #D1A969;
         color: #fff;
         font-size: 13px;
-        padding: 3px 5px;
-        border-radius: 5px;
+        padding: 3px 7px;
+        border-radius: 15px;
     }
     &__date{
         font-style: italic;
         font-size: 14px;
-        font-weight: 500;
         margin-top: 5px;
         span{
             color: #093B86;
@@ -74,13 +74,13 @@
         margin-right: 5px;
         transition: all 0.25s linear;
         &--1{
-            background-image: url('../images/icon-comment.svg');
+            background-image: url('https://hoidap.benhvienthammykangnam.vn/wp-content/themes/KnAnser2024/Module/Post/question_knhd_1_0_1/images/icon-comment.svg');
         }
         &--2{
-            background-image: url('../images/icon-eye.svg');
+            background-image: url('https://hoidap.benhvienthammykangnam.vn/wp-content/themes/KnAnser2024/Module/Post/question_knhd_1_0_1/images/icon-eye.svg');
         }
         &--3{
-            background-image: url('../images/icon-check.svg');
+            background-image: url('https://hoidap.benhvienthammykangnam.vn/wp-content/themes/KnAnser2024/Module/Post/question_knhd_1_0_1/images/icon-check.svg');
         }
     }
     &__comment, &__view{
@@ -88,7 +88,7 @@
         color: #093B86;
         font-weight: 500;
         border: 1px solid #093B86;
-        border-radius: 5px;
+        border-radius: 15px;
         padding: 4px 8px;
         font-size: 14px;
         transition: all 0.25s linear;
@@ -96,27 +96,13 @@
         &:hover{
             background-color: #093B86;
             color: #fff;
-            .question_knhd_1_0_0__icon{
+            .question_knhd_1_0_1__icon{
                 filter: brightness(0) invert(1);
             }
         }
     }
     &__comment{
         margin-right: 10px;
-    }
-    &__answer{
-        background-color: #093B86;
-        color: #fff;
-        font-weight: 500;
-        border: 1px solid #093B86;
-        border-radius: 5px;
-        padding: 4px 8px;
-        font-size: 14px;
-        transition: all 0.25s linear;
-        margin-top: 10px;
-        &:hover{
-            opacity: 0.8;
-        }
     }
     @media (max-width: 767px){
         &__comment{
