@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Create</title>
     <link rel="stylesheet" href="https://huudinh.github.io/assets/sass/lib.min.css">
     <link rel="stylesheet" href="assets/sass/custom.min.css">
 </head>
@@ -19,19 +19,13 @@
                 <!--  -->
             </div>
             <div class="col-md-6 knhd_main">
-                <!-- Search -->
-                <div id="search_knhd_1_0_0"></div>
-                <!-- Doctor -->
-                <div id="doctor_knhd_1_0_0"></div>
-                <!-- Chủ đề được quan tâm -->
-                <div id="topic_knhd_1_0_0"></div>
-                <!-- Câu hỏi -->
-                <div id="question_knhd_1_0_0"></div>
+                <!-- Form -->
+                <div id="form_knhd_1_0_0"></div>
                 <!--  -->
             </div>
             <div class="col-md-3">
-                <!-- Đặt câu hỏi -->
-                <div id="create_knhd_1_0_0"></div>
+                <!-- Doctor -->
+                <div id="doctor_knhd_1_1_0"></div>
                 <!-- Câu hỏi được hỏi nhiều nhất -->
                 <div id="hot_knhd_1_0_0"></div>
                 <!-- Bác sĩ được hỏi nhiều nhất -->
@@ -56,11 +50,8 @@
     <script>
         renderModule('Header', 'header_knhd_1_0_0', '', 'logic');
         renderModule('Home', 'cate_knhd_1_0_0', '', 'logic');
-        renderModule('Home', 'search_knhd_1_0_0', '', 'logic');
-        renderModule('Home', 'doctor_knhd_1_0_0', '', 'logic');
-        renderModule('Home', 'topic_knhd_1_0_0', '', 'logic');
-        renderModule('Home', 'question_knhd_1_0_0', '', '');
-        renderModule('Home', 'create_knhd_1_0_0', '', '');
+        renderModule('Home', 'form_knhd_1_0_0', '', '');
+        renderModule('Post', 'doctor_knhd_1_1_0', '', '');
         renderModule('Home', 'hot_knhd_1_0_0', '', '');
         renderModule('Home', 'doctor_knhd_1_2_0', '', 'logic');
         renderModule('Home', 'service_knhd_1_0_0', '', '');
