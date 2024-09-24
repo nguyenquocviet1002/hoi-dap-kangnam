@@ -13,36 +13,47 @@
         <div class="popup_knhd_1_0_0__icon"></div>
     </div>
 
-    <div class="popup_knhd_1_0_0 modal" id="popup_knhd_1_0_0" style="display: flex;">
-        <div class="modal-bg" onclick="popup_knhd_1_0_0Remove()"></div>
+    <div class="popup_knhd_1_0_0 modal" id="popup_knhd_1_0_0__modal" style="display: flex;">
+        <div class="modal-bg"></div>
         <div class="modal-box animate-opacity">
-            <div class="popup_knhd_1_0_0__close modal-close" onclick="popup_knhd_1_0_0Remove()">×</div>
+            <div class="popup_knhd_1_0_0__close modal-close">×</div>
             <div class="popup_knhd_1_0_0__body">
                 <div class="popup_knhd_1_0_0__title">Chào bạn!</div>
                 <div class="popup_knhd_1_0_0__sub">Bạn cần chúng tôi tư vấn về vấn đề gì?</div>
-                <form id="popup_knhd_1_0_0">
+                <form id="form-question" action="https://hoidap.benhvienthammykangnam.vn/cau-hoi/" method="post" enctype="multipart/form-data" role="form">
                     <div style="display: none;">
-                        <input name="referred" value="">
-                        <input name="code_campaign" value="584304803">
-                        <input name="name_campaign" value="[Kangnam] Thẩm Mỹ Mắt">
-                        <input name="first_link" value="">
-                        <input name="website" value="">
-                        <input name="location" value="">
-                        <input name="itext" value="">
+                        <input name="avatar" value="/wp-content/themes/KnAnser2024/Module/Category/cateList_knhd_1_0_0/images/avatar.png">
                     </div>
                     <div class="popup_knhd_1_0_0__control form-group">
-                        <label class="popup_knhd_1_0_0__label">Nội dung bạn cần tư vấn <span>*</span></label>
-                        <textarea class="popup_knhd_1_0_0__mess" placeholder="Tôi muốn hỏi..."></textarea>
+                        <label class="popup_knhd_1_0_0__label">Tiêu đề <span>*</span></label>
+                        <input type="text" class="popup_knhd_1_0_0__input" name="isubject" placeholder="Nhập tiêu đề câu hỏi">
                         <div class="form-message"></div>
                     </div>
                     <div class="popup_knhd_1_0_0__control form-group">
-                        <label class="popup_knhd_1_0_0__label">Họ tên <span>*</span></label>
-                        <input type="text" class="popup_knhd_1_0_0__input" placeholder="Họ tên*">
+                        <label class="popup_knhd_1_0_0__label">Nội dung câu hỏi <span>*</span></label>
+                        <textarea class="popup_knhd_1_0_0__note" name="iquestion" placeholder="Tôi muốn hỏi..." rows="4"></textarea>
                         <div class="form-message"></div>
                     </div>
                     <div class="popup_knhd_1_0_0__control form-group">
-                        <label class="popup_knhd_1_0_0__label">Số điện thoại <span>*</span></label>
-                        <input type="text" class="popup_knhd_1_0_0__input" placeholder="Họ tên*">
+                        <label class="popup_knhd_1_0_0__label">Chuyên mục tư vấn online <span>*</span></label>
+                        <select class="popup_knhd_1_0_0__input" name="icate">
+                            <option value="">Chọn chuyên mục</option>
+                        </select>
+                        <div class="form-message"></div>
+                    </div>
+                    <div class="popup_knhd_1_0_0__control form-group">
+                        <label class="popup_knhd_1_0_0__label">Họ và tên <span>*</span></label>
+                        <input type="text" class="popup_knhd_1_0_0__input" name="iname" placeholder="Nhập họ tên">
+                        <div class="form-message"></div>
+                    </div>
+                    <div class="popup_knhd_1_0_0__control form-group">
+                        <label class="popup_knhd_1_0_0__label">Email <span>*</span></label>
+                        <input type="text" class="popup_knhd_1_0_0__input" name="iemail" placeholder="Nhập email">
+                        <div class="form-message"></div>
+                    </div>
+                    <div class="popup_knhd_1_0_0__control form-group">
+                        <label class="popup_knhd_1_0_0__label">Địa chỉ</label>
+                        <input type="text" class="popup_knhd_1_0_0__input" name="iaddress" placeholder="Nhập địa chỉ">
                         <div class="form-message"></div>
                     </div>
                     <div class="popup_knhd_1_0_0__submit">
