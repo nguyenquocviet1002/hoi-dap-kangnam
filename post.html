@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="https://huudinh.github.io/assets/sass/lib.min.css">
+    <link rel="stylesheet" href="assets/sass/custom.min.css">
+</head>
+<body class="bg_color">
+    <!-- Header -->
+    <div id="header_knhd_1_0_0"></div>
+    <!--  -->
+    <div class="container">
+        <div class="row knhd_mt">
+            <div class="col-md-3">
+                <!-- Categories -->
+                <div id="cate_knhd_1_0_0"></div>
+                <!--  -->
+            </div>
+            <div class="col-md-6 knhd_main">
+                <!-- Form -->
+                <div id="question_knhd_1_0_1"></div>
+                <!-- Form -->
+                <div id="answer_knhd_1_0_0"></div>
+                <!--  -->
+                <!-- Form -->
+                <div id="hot_knhd_1_1_0"></div>
+                <!--  -->
+            </div>
+            <div class="col-md-3">
+                <!-- Doctor -->
+                <div id="doctor_knhd_1_1_0"></div>
+                <!-- Câu hỏi được hỏi nhiều nhất -->
+                <div id="hot_knhd_1_0_0"></div>
+                <!-- Bác sĩ được hỏi nhiều nhất -->
+                <div id="doctor_knhd_1_2_0"></div>
+                <!-- Dịch vụ được quan tâm nhất -->
+                <div id="service_knhd_1_0_0"></div>
+                <!-- Banner -->
+                <div id="banner_knhd_1_0_0"></div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer_knhd_1_0_0"></div>
+    <!-- Search -->
+    <div id="search_knhd_2_0_0"></div>
+
+
+    <script src="https://huudinh.github.io/assets/js/lib.min.js"></script>
+    <script src="https://huudinh.github.io/assets/js/module.min.js"></script>
+
+    <script>
+        renderModule('Header', 'header_knhd_1_0_0', '', 'logic');
+        renderModule('Home', 'cate_knhd_1_0_0', '', 'logic');
+        renderModule('Post', 'question_knhd_1_0_1', '', '');
+        renderModule('Post', 'answer_knhd_1_0_0', '', '');
+        renderModule('Post', 'hot_knhd_1_1_0', '', '');
+        renderModule('Post', 'doctor_knhd_1_1_0', '', '');
+        renderModule('Home', 'hot_knhd_1_0_0', '', '');
+        renderModule('Home', 'doctor_knhd_1_2_0', '', 'logic');
+        renderModule('Home', 'service_knhd_1_0_0', '', '');
+        renderModule('Home', 'banner_knhd_1_0_0', '', '');
+        renderModule('Footer', 'footer_knhd_1_0_0', '', '');
+        renderModule('Popup', 'search_knhd_2_0_0', '', 'logic');
+    </script>
+</body>
+</html>
