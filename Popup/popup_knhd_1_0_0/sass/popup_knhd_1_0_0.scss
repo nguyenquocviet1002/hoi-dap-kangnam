@@ -1,17 +1,21 @@
 .popup_knhd_1_0_0{
+    &__box{
+        max-width: 450px !important;
+        width: 100% !important;
+    }
     &__btn{
         display: flex;
         cursor: pointer;
         position: fixed;
-        bottom: 30px;
-        right: 30px;
+        bottom: 20%;
+        right: 50px;
     }
     &__text{
         color: #fff;
         background: #EA9100;
         border-radius: 15px;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 21px;
         padding: 5px 10px;
         position: relative;
         &::after{
@@ -28,8 +32,8 @@
     &__icon{
         background: url('../images/icon-pen.svg') center no-repeat #EA9100;
         background-size: contain;
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
         border-radius: 100%;
         padding: 0 10px;
         margin-left: 5px;
@@ -62,6 +66,14 @@
     }
     &__control{
         margin-bottom: 13px;
+        &.invalid .popup_knhd_1_0_0__input,
+        &.invalid .popup_knhd_1_0_0__note {
+            border-color: red;
+        }
+    }
+    .form-message{
+        color: red;
+        font-size: 13px;
     }
     &__label{
         span{
@@ -75,6 +87,7 @@
         background-color: #F5F5F5;
         padding: 5px 8px;
         height: 40px;
+        outline: none;
     }
     &__note{
         width: 100%;
@@ -90,11 +103,28 @@
             width: 100%;
             border-radius: 15px;
             color: #fff;
-            background-color: #905900;
+            background-color: #D1A969;
             border: none;
             padding: 10px 10px;
             font-size: 16px;
             font-weight: 600;
+            text-transform: uppercase;
+        }
+        &:hover input{
+            background-color: #db9119;
+        }
+    }
+    @media (max-width: 767px){
+        &__btn{
+            bottom: 20px;
+            right: 20px;
+        }
+        &__text{
+            font-size: 16px;
+        }
+        &__icon{
+            width: 35px;
+            height: 35px;
         }
     }
 }
