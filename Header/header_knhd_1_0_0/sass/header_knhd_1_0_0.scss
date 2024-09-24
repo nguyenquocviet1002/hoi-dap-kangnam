@@ -41,6 +41,84 @@
             font-weight: 600;
         }
     }
+    &__search{
+        display: flex;
+        flex: 1;
+        margin: 0 20px;
+        max-width: 450px;
+    }
+    &__input{
+        flex: 1;
+        position: relative;
+        input{
+            width: 100%;
+            border: 1px solid #2D60AC;
+            border-radius: 15px;
+            color: #2D60AC;
+            padding: 6px 25px 6px 10px;
+            background-color: #F5F5F5;
+        }
+    }
+    &__btnSearch{
+        width: 35px;
+        border: none;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 10px;
+        img{
+            border-radius: 15px;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__dropdown{
+        display: none;
+        position: absolute;
+        top: 100%;
+        background-color: #F9F9F9;
+        border-radius: 5px;
+        padding: 10px 10px 0;
+        box-shadow: 0 2px 3px 0 #a1a1a1;
+        width: 100%;
+    }
+    &__item{
+        border-bottom: 1px solid #C9C6C6;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: flex-start;
+    }
+    &__iconNumber{
+        width: 17px;
+        height: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #093B86;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 13px;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+    &__link{
+        flex: 1;
+        &:hover{
+            color: #093B86;
+        }
+    }
+    &__close{
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 11px;
+        cursor: pointer;
+    }
+    &__iconSearch{
+        display: none;
+    }
     img{
         width: 100%;
         height: auto;
@@ -59,6 +137,16 @@
         }
         &__text{
             display: none;
+        }
+        &__search{
+            display: none;
+        }
+        &__iconSearch{
+            display: block;
+            margin-right: 10px;
+            img{
+                border-radius: 55px;
+            }
         }
     }
 }
