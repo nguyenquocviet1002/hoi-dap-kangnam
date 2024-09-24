@@ -27,7 +27,8 @@
             padding-left: 10px;
         }
     }
-    @media (max-width: 768px){
+    @media (max-width: 767px){
+        box-shadow: none;
         &__body{
             display: flex;
             flex-wrap: wrap;
@@ -35,6 +36,7 @@
         &__item{
             width: fit-content;
             margin-right: 5px;
+            margin-bottom: 5px;
             border: 1px solid #D1A969;
             border-radius: 55px;
             padding: 3px 8px;
