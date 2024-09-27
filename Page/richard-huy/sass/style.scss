@@ -1,0 +1,426 @@
+.detailDoctor_kndh_1_0_0{
+    &__back{
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 20px 50px;
+    }
+    &__main{
+        background-color: #F2F2F2;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        overflow: hidden;
+    }
+    &__avatar{
+        width: 290px;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__content{
+        flex: 1;
+        margin-left: 30px;
+    }
+    &__position{
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    &__name{
+        text-transform: uppercase;
+        color: #D1A969;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000;
+        width: fit-content;
+    }
+    &__exp, &__exp, &__cal , &__hotline{
+        margin-bottom: 10px;
+    }
+    &__bot{
+        display: flex;
+        align-items: center;
+    }
+    &__number{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    &__tabs{
+        display: flex;
+        padding: 15px 10px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        position: relative;
+        z-index: 1;
+        background-color: #fff;
+    }
+    &__tab{
+        text-transform: uppercase;
+        margin: 0 12px;
+        font-size: 16px;
+        cursor: pointer;
+        &.active{
+            color: #093B86;
+            font-weight: 600;
+            border-bottom: 1px solid #093B86;
+        }
+    }
+    &__star{
+        width: 86px;
+        height: 13px;
+        position: relative;
+        margin-left: 10px;
+    }
+    &__icon{
+        background-image: url('../images/star.png');
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        &--1, &--2{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &--1{
+            max-width: 100%;
+            width: 50%;
+            z-index: 1;
+            overflow: hidden;
+        }
+        &--2{
+            width: 100%;
+            filter: grayscale(1);
+        }
+    }
+    &__count{
+        color: #093B86;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    &__edit{
+        color: #093B86;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #093B86;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-weight: 600;
+        .icon_edit{
+            display: block;
+            background: url('../images/icon-edit.svg') no-repeat center;
+            background-size: cover;
+            background-position: left;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+        }
+    }
+    &__panel{
+        display: none;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 20px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        &.active{
+            display: block;
+        };
+        ul{
+            margin: 0;
+        }
+    }
+    &__site{
+        display: flex !important;
+        align-items: flex-start;
+        box-shadow: none;
+        padding: 0;
+        &.active{
+            box-shadow: 0px 4px 4px 0px #00000040;
+            padding: 20px;
+        }
+    }
+    &__panelItem{
+        display: block;
+        margin-bottom: 10px;
+    }
+    &__panelTitle{
+        display: flex;
+        font-weight: 600;
+        >span{
+            margin-right: 5px;
+        }
+        &:hover{
+            color: #0051cb;
+        }
+    }
+    &__panelContent{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .glsr-minimal[data-shortcode="site_reviews_form"]{
+        position: fixed;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border-radius: 15px;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 2;
+        width: calc(100% - 30px);
+        max-width: 450px;
+        &.active{
+            display: block;
+        }
+    }
+    .glsr-review-form.glsr-form{
+        row-gap: 0 !important;
+    }
+    .glsr-field-rating{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000;
+        padding: 20px 20px 20px;
+        border-bottom: none;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        label.glsr-label{
+            margin-left: 10px !important;
+            font-weight: 600;
+        }
+    }
+    .glsr-field-textarea{
+        border: 1px solid #000;
+        padding: 0 20px 10px;
+        border-top: none;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        label.glsr-label{
+            display: none !important;
+        }
+        textarea.glsr-textarea{
+            border: none;
+            background-color: transparent;
+            outline: none;
+            border-top: 1px solid rgb(0, 0, 0);
+            padding-top: 20px;
+        }
+    }
+    .glsr-field-text[data-field="name"]{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        label.glsr-label span{
+            position: relative;
+            &::after{
+                content: '*';
+                position: absolute;
+                left: 100%;
+                top: 0;
+                color: red;
+            }
+        }
+        input.glsr-input-text{
+            background-color: #F5F5F5;
+            border-radius: 15px;
+            outline: none;
+            border: 1px solid transparent;
+            padding: 5px 10px;
+        }
+    }
+    .glsr-button.wp-block-button__link{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background-color: #D1A969;
+        border: none;
+        font-weight: 600;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .glsr-minimal[data-shortcode="site_reviews_summary"]{
+        display: none;
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 15px;
+        width: 35%;
+        .glsr-summary-rating{
+            font-size: 34px;
+        }
+        .glsr-summary-text{
+            font-size: 18px;
+        }
+        &.active{
+            display: block;
+        }
+    }
+    .glsr-minimal[data-shortcode="site_reviews"]{
+        display: none;
+        margin-top: 20px;
+        margin-left: 50px;
+        flex: 1;
+        &.active{
+            display: block;
+        }
+        .glsr-review{
+            border-bottom: 1px solid #0E0E0E;
+            padding-bottom: 10px;
+        }
+        .glsr-review-date span{
+            width: 100%;
+            text-align: end;
+        }
+    }
+    .page-numbers{
+        color: #093B86;
+        font-size: 14px;
+        line-height: normal;
+        &:not(.prev, .next) {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #093B86;
+            border-radius: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 3px;
+        }
+        &.current{
+            background-color: #093B86;
+            color: #fff;
+        }
+    }
+    @media (max-width: 767px){
+        &__back{
+            box-shadow: none;
+            padding: 0 15px;
+        }
+        &__main{
+            flex-direction: column;
+        }
+        &__avatar{
+            width: 100%;
+        }
+        &__content{
+            margin-left: 0;
+            width: 100%;
+            padding: 20px 15px;
+        }
+    }
+    @media (max-width: 430px){
+        &__bot{
+            flex-wrap: wrap;
+        }
+        &__edit{
+            width: 100%;
+            margin-left: 0;
+            padding-left: 0;
+            margin-top: 5px;
+            border: none;
+        }
+        &__tabs{
+            justify-content: space-between;
+        }
+        &__tab{
+            margin: 0 5px;
+            text-align: center;
+            font-size: 14px;
+        }
+        &__panel ul{
+            padding-left: 20px;
+        }
+        &__site{
+            flex-direction: column;
+        }
+        .glsr-minimal[data-shortcode="site_reviews_summary"], .glsr-minimal[data-shortcode="site_reviews"]{
+            width: 100%;
+        }
+        .glsr-minimal[data-shortcode="site_reviews"]{
+            margin-left: 0;
+        }
+    }
+    &__bg{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        z-index: 1;
+    }
+}
+
+.related_knhd_1_0_0{
+    padding: 30px 0;
+    &__head{
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 5px;
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+    &__list{
+        margin-top: 15px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: #c7c7c7 #f5f5f5;
+        display: flex;
+        flex: 1;
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        &::-webkit-scrollbar {
+            width: 0px; /* For Chrome, Safari, and Opera */
+        }
+    }
+    &__scroll{
+        display: flex;
+        margin: 0 -5px;
+        &.hide{
+            pointer-events: none;
+        }
+    }
+    &__item{
+        width: 220px;
+        margin: 0 5px;
+    }
+    &__thumb{
+        position: relative;
+        padding-top: 120%;
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+    &__content{
+        padding: 12px 10px;
+        background-color: #F2F2F2;
+    }
+    &__position{
+        text-align: center;
+    }
+    &__name{
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        a{
+            color: #D1A969;
+        }
+    }
+}
