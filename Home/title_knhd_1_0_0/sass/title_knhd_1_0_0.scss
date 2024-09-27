@@ -1,0 +1,22 @@
+.title_knhd_1_0_0{
+    &__head{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 26px;
+        margin: 0 0;
+    }
+    &__desc{
+        text-align: center;
+        font-weight: 600;
+        font-size: 21px;
+    }
+    @media (max-width: 767px){
+        &__head{
+            font-size: 21px;
+        }
+        &__desc{
+            font-size: 18px;
+        }
+    }
+}
