@@ -84,11 +84,13 @@
         width: 100%;
     }
     &__item{
-        border-bottom: 1px solid #C9C6C6;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
         display: flex;
         align-items: flex-start;
+        padding-bottom: 10px;
+        &:not(:last-child){
+            border-bottom: 1px solid #C9C6C6;
+            margin-bottom: 10px;
+        }
     }
     &__iconNumber{
         width: 17px;
@@ -102,9 +104,13 @@
         font-size: 13px;
         margin-top: 3px;
         margin-right: 5px;
+        line-height: 1;
     }
     &__link{
         flex: 1;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
         &:hover{
             color: #093B86;
         }
