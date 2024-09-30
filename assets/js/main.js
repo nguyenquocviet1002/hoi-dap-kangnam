@@ -25,7 +25,7 @@ const cateSearch = [
 async function fetchSearchHandler(value, per) {
     const trimValue = value.split(' ');
     const joinValue = trimValue.join('+');
-    let response = await fetch(`https://benhvienthammykangnam.vn/wp-json/wp/v2/posts?search=${joinValue}&per_page=${per}&page=1`);
+    let response = await fetch(`https://hoidap.benhvienthammykangnam.vn/wp-json/wp/v2/posts?search=${joinValue}&per_page=${per}&page=1`);
     let posts = await response.json();
     return posts;
 }
