@@ -14,6 +14,7 @@
     }
     &__logo{
         max-width: 170px;
+        margin:0;
     }
     &__action, &__btn{
         display: flex;
@@ -35,7 +36,6 @@
     &__text{
         &Small{
             font-size: 13px;
-            color: #C9C6C6;
         }
         &Bold{
             font-weight: 600;

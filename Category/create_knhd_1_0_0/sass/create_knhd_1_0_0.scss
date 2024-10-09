@@ -1,18 +1,19 @@
 .create_knhd_1_0_0{
-    background-image: url(https://hoidap.benhvienthammykangnam.vn/wp-content/themes/KnAnser2024/Module/Category/create_knhd_1_0_0/images/create-bg.jpg);
+    background-image: url(https://hoidap.benhvienkangnam.vn/wp-content/themes/KnAnser2024/Module/Category/create_knhd_1_0_0/images/create-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
+    margin-bottom: 20px;
     &__sub{
         color: #fff;
         font-style: italic;
     }
     &__btn{
         background-color: #FEC465;
-        color: #2D60AC;
+        color: #1B3965;
         text-transform: uppercase;
         width: 100%;
         display: block;
