@@ -3,25 +3,15 @@
     &__list{
         overflow-x: auto;
         overflow-y: hidden;
-        scrollbar-width: auto;
-        // scrollbar-color: #D1A969 #f5f5f5;
+        scrollbar-width: thin;
+        scrollbar-color: #D1A969 #f5f5f5;
         display: flex;
         margin-top: 15px;
-        &::-webkit-scrollbar {
-            width: 5px;
-        }
-        &::-webkit-scrollbar-track {
-            border-radius: 10px;
-        }   
-        &::-webkit-scrollbar-thumb {
-            background: #D1A969; 
-            border-radius: 10px;
-        }
     }
     &__scroll{
         display: flex;
         margin: 0 -10px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         &.hide{
             pointer-events: none;
         }
