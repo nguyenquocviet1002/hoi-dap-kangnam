@@ -24,13 +24,13 @@ const keySearch = [
                 title: {
                     rendered: "Cắt mí 6D có gì vượt trội so với công nghệ cũ"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cat-mi-6d-co-gi-vuot-troi-so-voi-cong-nghe-cu-khong/"
             },
             {
                 title: {
                     rendered: "Cắt mí 6D có đau không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cat-mi-6d-co-dau-khong-va-co-sung-khong/"
             }
         ]
     },
@@ -106,7 +106,7 @@ const keySearch = [
                 title: {
                     rendered: "Nhấn mí Plasma giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/chi-phi-nhan-mi-plasma-bao-nhieu-co-khac-biet-gi-so-voi-nhan-mi-thuong/"
             },
             {
                 title: {
@@ -200,7 +200,7 @@ const keySearch = [
                 title: {
                     rendered: "có nên nâng cung chân mày ở kangnam không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/co-nen-nang-cung-chan-may-o-kangnam-khong/"
             },
             {
                 title: {
@@ -224,7 +224,7 @@ const keySearch = [
                 title: {
                     rendered: "nâng cung chân mày bao lâu thì hết sưng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-cung-chan-may-bao-nhieu-ngay-la-het-sung/"
             },
 			{
                 title: {
@@ -253,13 +253,13 @@ const keySearch = [
                 title: {
                     rendered: "Lấy mỡ mí mắt bao lâu thì lành"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mi-mat-bao-lau-thi-lanh-va-can-chu-y-gi-khong/"
             },
             {
                 title: {
                     rendered: "Lấy mỡ mắt bao lâu thì hết sưng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mat-bao-lau-thi-het-sung-va-luu-y-dieu-gi/"
             },
             {
                 title: {
@@ -282,7 +282,7 @@ const keySearch = [
                 title: {
                     rendered: "lấy mỡ mắt nội soi là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mat-noi-soi-la-gi/"
             },
             {
                 title: {
@@ -294,13 +294,13 @@ const keySearch = [
                 title: {
                     rendered: "lấy mỡ mắt nội soi bao lâu thì lành"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mat-noi-soi-bao-lau-thi-lanh-va-trong-tu-nhien/"
             },
             {
                 title: {
                     rendered: "lấy mỡ mắt nội soi kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mat-noi-soi-kangnam-co-uu-diem-gi/"
             },
             {
                 title: {
@@ -335,19 +335,13 @@ const keySearch = [
                 title: {
                     rendered: "nâng mũi sụn sườn"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-suon-la-gi/"
             },
             {
                 title: {
                     rendered: "Nâng mũi surgiform"
                 },
-                link: "#"
-            },
-            {
-                title: {
-                    rendered: "Nâng mũi sụn sườn"
-                },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-surgiform-la-gi/"
             },
 			{
                 title: {
@@ -359,7 +353,7 @@ const keySearch = [
                 title: {
                     rendered: "Nâng mũi cấu trúc"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-cau-truc-la-gi/"
             },
             {
                 title: {
@@ -376,13 +370,13 @@ const keySearch = [
                 title: {
                     rendered: "Nâng mũi sụn Surgiform là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-surgiform-la-gi/"
             },
             {
                 title: {
                     rendered: "Nâng mũi sụn Surgiform giữ được bảo lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/sau-nang-mui-sun-surgiform-giu-duoc-bao-lau/"
             },
             {
                 title: {
@@ -394,7 +388,7 @@ const keySearch = [
                 title: {
                     rendered: "Sụn Surgiform xuất xứ từ đâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/sun-nang-mui-surgiform-co-xuat-xu-tu-dau/"
             },
 			{
                 title: {
@@ -435,13 +429,13 @@ const keySearch = [
                 title: {
                     rendered: "Nâng mũi Idol Line có bảo hành không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-idol-co-bao-hanh-khong/"
             },
             {
                 title: {
                     rendered: "Nâng mũi Idol Line có được vĩnh viễn không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-idol-line-co-duoc-vinh-vien-khong/"
             },
 			{
                 title: {
@@ -453,7 +447,7 @@ const keySearch = [
                 title: {
                     rendered: "công nghệ Nâng mũi Idol Line"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cong-nghe-nang-mui-idol-line-co-gi-dac-biet/"
             },
             {
                 title: {
@@ -517,19 +511,19 @@ const keySearch = [
                 title: {
                     rendered: "Nâng mũi sụn sườn là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-suon-la-gi/"
             },
             {
                 title: {
                     rendered: "Nâng mũi sụn sườn giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-suon-co-the-giu-duoc-bao-lau/"
             },
             {
                 title: {
                     rendered: "Nâng mũi sụn sườn có bị teo lại không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-suon-co-bi-teo-lai-khong-bac-si/"
             },
             {
                 title: {
@@ -553,13 +547,13 @@ const keySearch = [
                 title: {
                     rendered: "Nâng mũi sụn sườn bao lâu thì lành"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-suon-bao-lau-thi-lanh-va-co-lau-hon-cac-sun-khac-khong/"
             },
             {
                 title: {
                     rendered: "Nâng mũi sụn sườn có đau không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-sun-suon-co-dau-khong/"
             }
         ]
     },
@@ -570,7 +564,7 @@ const keySearch = [
                 title: {
                     rendered: "nâng mũi cấu trúc là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-cau-truc-la-gi/"
             },
             {
                 title: {
@@ -606,13 +600,13 @@ const keySearch = [
                 title: {
                     rendered: "nâng mũi cấu trúc mấy ngày tháo nẹp"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-cau-truc-may-ngay-thao-nep-la-dep/"
             },
             {
                 title: {
                     rendered: "nâng mũi cấu trúc sau bao lâu thì đẹp"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-mui-cau-truc-sau-bao-lau-thi-dep-va-het-sung/"
             }
         ]
     },
@@ -700,13 +694,13 @@ const keySearch = [
                 title: {
                     rendered: "thu gọn cánh mũi có phá tướng không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/thu-gon-canh-mui-co-pha-tuong-khong/"
             },
 			{
                 title: {
                     rendered: "thu gọn cánh mũi bao lâu thì hết sưng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/thu-gon-canh-mui-bao-lau-thi-het-sung/"
             },
             {
                 title: {
@@ -723,13 +717,13 @@ const keySearch = [
                 title: {
                     rendered: "Cắt cánh mũi bao lâu thì lành"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cat-canh-mui-bao-lau-thi-lanh-hoan-toan-binh-thuong/"
             },
             {
                 title: {
                     rendered: "Cắt cánh mũi bao lâu thì cắt chỉ"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cat-canh-mui-bao-lau-thi-cat-chi-duoc/"
             },
             {
                 title: {
@@ -776,7 +770,7 @@ const keySearch = [
                 title: {
                     rendered: "Nâng ngực đệm mỡ Extra Smooth"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-dem-mo-extra-smooth-la-gi-va-co-diem-gi-khac-biet-khong/"
             },
             {
                 title: {
@@ -800,7 +794,7 @@ const keySearch = [
                 title: {
                     rendered: "Nâng ngực ở đâu uy tín"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-dem-mo-extra-smooth-la-gi-va-co-diem-gi-khac-biet-khong/"
             },
 			{
                 title: {
@@ -829,7 +823,7 @@ const keySearch = [
                 title: {
                     rendered: "nâng ngực nhẹ như không khác gì so với phương pháp khác"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tai-sao-goi-la-nang-nguc-nhe-nhu-khong-vay/"
             },
             {
                 title: {
@@ -841,7 +835,7 @@ const keySearch = [
                 title: {
                     rendered: "nâng ngực nhẹ như không có tác dụng phụ không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-nhe-nhu-khong-co-tac-dung-phu-gi-khong/"
             },
 			{
                 title: {
@@ -864,13 +858,13 @@ const keySearch = [
                 title: {
                     rendered: "Nâng ngực đệm mỡ Extra Smooth là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-dem-mo-extra-smooth-la-gi-va-co-diem-gi-khac-biet-khong/"
             },
             {
                 title: {
                     rendered: "Nâng ngực đệm mỡ Extra Smooth"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-dem-mo-extra-smooth-la-gi-va-co-diem-gi-khac-biet-khong/"
             },
             {
                 title: {
@@ -882,25 +876,25 @@ const keySearch = [
                 title: {
                     rendered: "Nâng ngực đệm mỡ bao lâu thì ngót đi"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-dem-mo-co-ngot-di-khong/"
             },
 			{
                 title: {
                     rendered: "Nâng ngực đệm mỡ Extra Smooth lấy mỡ từ vùng nào để đệm vào"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-dem-mo-extra-smooth-lay-mo-tu-vung-nao/"
             },
 			{
                 title: {
                     rendered: "Trường hợp nào nên Nâng ngực đệm mỡ extra Smooth"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/truong-hop-nao-nen-nang-nguc-dem-mo-extra-smooth/"
             },
 			{
                 title: {
                     rendered: "Nâng ngực thông thường và nâng ngực đệm mỡ Extra Smoothie cái nào tốt hơn"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-nguc-thong-thuong-va-dem-mo-extra-smooth-thi-cai-nao-tot-hon/"
             }
         ]
     },
@@ -1128,13 +1122,13 @@ const keySearch = [
                 title: {
                     rendered: "Chỉnh hàm hô 3D"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/chinh-ham-ho-3d-la-gi-co-uu-diem-gi-khong/"
             },
             {
                 title: {
                     rendered: "Chỉnh hàm móm 3D"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phau-thuat-chinh-ham-mom-3d-co-uu-diem-gi/"
             },
             {
                 title: {
@@ -1146,7 +1140,7 @@ const keySearch = [
                 title: {
                     rendered: "Hạ gò má 3D"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phau-thuat-ha-go-ma-3d-la-gi-co-uu-diem-gi-noi-bat/"
             },
 			{
                 title: {
@@ -1175,7 +1169,7 @@ const keySearch = [
                 title: {
                     rendered: "Chỉnh hàm hô 3D là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/chinh-ham-ho-3d-la-gi-co-uu-diem-gi-khong/"
             },
             {
                 title: {
@@ -1211,7 +1205,7 @@ const keySearch = [
                 title: {
                     rendered: "Phẫu thuật hàm hô bao lâu thì lành"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phau-thuat-ham-ho-mat-bao-lau-thi-lanh/"
             }
         ]
     },
@@ -1245,7 +1239,7 @@ const keySearch = [
                 title: {
                     rendered: "Gọt hàm V Line là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/got-ham-v-line-la-gi-co-phuc-tap-khong/"
             },
             {
                 title: {
@@ -1292,31 +1286,31 @@ const keySearch = [
                 title: {
                     rendered: "Phẫu thuật hạ gò má 3D là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phau-thuat-ha-go-ma-3d-la-gi-co-uu-diem-gi-noi-bat/"
             },
             {
                 title: {
                     rendered: "Hạ gò má có được vĩnh viễn không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phau-thuat-ha-go-ma-co-duoc-vinh-vien-khong/"
             },
 			{
                 title: {
                     rendered: "Hạ gò má có nguy hiểm không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/ha-go-ma-co-nguy-hiem-khong-co-anh-huongr-den-day-than-kinh-khong/"
             },
             {
                 title: {
                     rendered: "Phẫu thuật hạ gò má bao lâu thì lành"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phau-thuat-ha-go-ma-bao-lau-thi-lanh/"
             },
 			{
                 title: {
                     rendered: "Hạ gò má bao lâu tháo nẹp"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/ha-go-ma-bao-lau-thao-nep-va-co-luu-y-gi-khong/"
             },
             {
                 title: {
@@ -1328,7 +1322,7 @@ const keySearch = [
                 title: {
                     rendered: "hạ gò má bác sĩ richard huy"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/ha-go-ma-bac-si-richard-huy-co-uy-tin-khong/"
             }
         ]
     },
@@ -1339,7 +1333,7 @@ const keySearch = [
                 title: {
                     rendered: "Tại sao bị hở hàm ếch"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tai-sao-bi-ho-ham-ech-va-nguyen-nhan-chu-yeu/"
             },
             {
                 title: {
@@ -1351,7 +1345,7 @@ const keySearch = [
                 title: {
                     rendered: "hở hàm ếch siêu âm có thấy không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/ho-ham-ech-sieu-am-co-thay-khong-thoi-diem-nao-quan-trong/"
             },
             {
                 title: {
@@ -1369,7 +1363,7 @@ const keySearch = [
                 title: {
                     rendered: "Địa điểm điều trị hở hàm ếch hiệu quả ở đâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-diem-dieu-tri-ho-ham-ech-hieu-qua-o-dau-uy-tin/"
             },
 			{
                 title: {
@@ -1393,7 +1387,7 @@ const keySearch = [
                 title: {
                     rendered: "Hở hàm ếch bao lâu thì phẫu thuật được"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/bi-ho-ham-ech-bao-lau-thi-phau-thuat-duoc/"
             },
             {
                 title: {
@@ -1416,13 +1410,13 @@ const keySearch = [
                 title: {
                     rendered: "cười hở lợi do đâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nguyen-nhan-chinh-gay-cuoi-ho-loi-do-dau/"
             },
             {
                 title: {
                     rendered: "Chữa cười hở lợi giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/chua-cuoi-ho-loi-gia-bao-nhieu-va-phu-thuoc-vao-yeu-to-nao/"
             },
 			{
                 title: {
@@ -1440,7 +1434,7 @@ const keySearch = [
                 title: {
                     rendered: "địa chỉ chữa cười hở lợi ở Hà Nội"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/top-dia-chi-chua-cuoi-ho-loi-o-ha-noi-uy-tin/"
             },
             {
                 title: {
@@ -1463,19 +1457,19 @@ const keySearch = [
                 title: {
                     rendered: "trượt cằm có nguy hiểm không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/truot-cam-co-nguy-hiem-hay-bien-chung-gi-khong/"
             },
 			{
                 title: {
                     rendered: "Trượt cằm bao lâu thì hết sưng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/truot-cam-bao-lau-thi-het-sung-va-het-dau/"
             },
             {
                 title: {
                     rendered: "Trượt cằm khác gì độn cằm"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/truot-cam-khac-gi-don-cam-va-uu-nhuoc-diem/"
             },
 			{
                 title: {
@@ -1487,7 +1481,7 @@ const keySearch = [
                 title: {
                     rendered: "trượt cằm bác sĩ richard huy"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/truot-cam-bac-si-richard-huy-uy-tin/"
             },
             {
                 title: {
@@ -1504,37 +1498,37 @@ const keySearch = [
                 title: {
                     rendered: "Giảm mỡ Lipo 360"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/giam-mo-lipo-360-la-cong-nghe-gi/"
             },
             {
                 title: {
                     rendered: "Giảm mỡ Lipo 360 toàn bụng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/quy-trinh-giam-mo-lipo-360-toan-bung/"
             },
 			{
                 title: {
                     rendered: "Giảm mỡ Lipo 360 phân vùng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/giam-mo-lipo-360-phan-vung-la-gi/"
             },
             {
                 title: {
                     rendered: "Giảm mỡ Lipo 360 bắp tay"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/chi-phi-giam-mo-lipo-360-bap-tay/"
             },
 			{
                 title: {
                     rendered: "Giảm mỡ Lipo 360 cằm"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/phuong-phap-giam-mo-lipo-360-cam-co-uu-diem-gi/"
             },
 			{
                 title: {
                     rendered: "Cân chỉnh body line"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/can-chinh-body-line-la-lam-nhung-dich-vu-gi/"
             },
 			{
                 title: {
@@ -1557,7 +1551,7 @@ const keySearch = [
                 title: {
                     rendered: "hút mỡ bụng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/hut-mo-bung-co-an-toan-khong-va-co-nhung-rui-ro-nao-khong/"
             },
             {
                 title: {
@@ -1569,37 +1563,37 @@ const keySearch = [
                 title: {
                     rendered: "hút mỡ nọng cằm"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/quy-trinh-hut-mo-nong-cam-ra-sao/"
             },
             {
                 title: {
                     rendered: "hút mỡ đùi"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/hut-mo-dui-la-gi-va-co-su-dung-dien-thoai-duoc-khong/"
             },
 			{
                 title: {
                     rendered: "hút mỡ hông eo"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/hut-mo-hong-eo-bao-lau-co-ket-qua/"
             },
 			{
                 title: {
                     rendered: "Hút mỡ có nguy hiểm gì không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/hut-mo-co-nguy-hiem-gi-khong-va-luu-y-dieu-gi/"
             },
 			{
                 title: {
                     rendered: "Giá hút mỡ bụng ở kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/gia-hut-mo-bung-o-kangnam/"
             },
             {
                 title: {
                     rendered: "Hút mỡ có để lại di chứng gì không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/hut-mo-co-de-lai-di-chung-gi-khong-va-co-luu-y-gi-khong/"
             }
         ]
     },
@@ -1628,7 +1622,7 @@ const keySearch = [
                 title: {
                     rendered: "Giảm mỡ Lipo 360 toàn bụng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/quy-trinh-giam-mo-lipo-360-toan-bung/"
             },
 			{
                 title: {
@@ -1721,37 +1715,37 @@ const keySearch = [
                 title: {
                     rendered: "Cấy mỡ tăng sinh là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cong-nghe-cay-mo-tang-sinh-biofat-la-gi/"
             },
             {
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cong-nghe-cay-mo-tang-sinh-biofat-la-gi/"
             },
 			{
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat có được vĩnh viễn không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tang-sinh-biofat-co-duoc-vinh-vien-khong/"
             },
             {
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat duy trì được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tang-sinh-biofat-duy-tri-duoc-bao-lau/"
             },
 			{
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat bao lâu thì hết sưng"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tang-sinh-biofat-bao-lau-thi-het-sung/"
             },
             {
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat cho mặt hốc hác giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tang-sinh-biofat-cho-mat-hoc-hac-gia-bao-nhieu/"
             },
 			{
                 title: {
@@ -1763,19 +1757,19 @@ const keySearch = [
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat cho mông lép giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tang-sinh-biofat-cho-mong-lep-gia-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Thời gian hồi phục sau khi  Cấy mỡ tăng sinh BioFat cho mông lép là bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/thoi-gian-hoi-phuc-sau-khi-cay-mo-tang-sinh-biofat-cho-mong-lep-la-bao-lau/"
             },
             {
                 title: {
                     rendered: " Cấy mỡ tăng sinh BioFat cho mông lép có an toàn không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tang-sinh-biofat-cho-mong-lep-co-an-toan-khong/"
             }
         ]
     },
@@ -1816,13 +1810,13 @@ const keySearch = [
                 title: {
                     rendered: " Chăm sóc da mặt sau khi cấy mỡ tự thân"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cham-soc-da-mat-the-nao-cho-nhanh-hoi-phuc-sai-khi-cay-mo-tu-than/"
             },
 			{
                 title: {
                     rendered: "Cấy mỡ tự thân có được vĩnh viễn không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cay-mo-tu-than-co-duoc-vinh-vien-khong/"
             }
         ]
     },
@@ -1980,7 +1974,7 @@ const keySearch = [
                 title: {
                     rendered: "căng chỉ collagen bao lâu trở lại bình thường"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-bao-lau-se-tro-lai-binh-thuong/"
             },
 			{
                 title: {
@@ -2192,7 +2186,7 @@ const keySearch = [
                 title: {
                     rendered: "Bắn laser trị nám bao lâu thì bong"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/ban-laser-tri-nam-bao-lau-thi-bong-vay-cach-cham-soc-da-sau-khi-ban-the-nao/"
             },
 			{
                 title: {
@@ -2292,7 +2286,7 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm filler má giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ma-gia-bao-nhieu-va-can-bao-nhieu-cc-thi-dep/"
             },
             {
                 title: {
