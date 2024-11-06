@@ -59,7 +59,7 @@ const keySearch = [
                 title: {
                     rendered: "Giá cắt mí dưới"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/gia-cat-mi-duoi-co-thay-doi-theo-tung-bac-si-khong/"
             },
             {
                 title: {
@@ -71,7 +71,7 @@ const keySearch = [
                 title: {
                     rendered: "Công nghệ cắt mí mắt mới nhất"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cong-nghe-cat-mi-mat-moi-nhat/"
             },
             {
                 title: {
@@ -100,7 +100,7 @@ const keySearch = [
                 title: {
                     rendered: "Làm mí Plasma bao nhiêu tiền"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lam-mi-plasma-bao-nhieu-tien-o-ha-noi-khong/"
             },
             {
                 title: {
@@ -124,13 +124,13 @@ const keySearch = [
                 title: {
                     rendered: "Mô phỏng 3D cắt mí Plasma"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cong-nghe-mo-phong-3d-cat-mi-plasma-la-gi/"
             },
             {
                 title: {
                     rendered: "lưu ý trước khi cắt mí Plasma"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/luu-y-truoc-khi-cat-mi-plasma-giup-nhanh-lanh/"
             }
         ]
 	},	
@@ -159,7 +159,7 @@ const keySearch = [
                 title: {
                     rendered: "Kết quả cắt mí Perfect Eyes kéo dài bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cat-mi-perfect-eyes-keo-dai-bao-lau/"
             },
             {
                 title: {
@@ -171,7 +171,7 @@ const keySearch = [
                 title: {
                     rendered: "Thời gian hồi phục sau cắt mí Perfect Eyes là bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/thoi-gian-hoi-phuc-sau-cat-mi-perfect-eyes-la-bao-lau/"
             },
 			{
                 title: {
@@ -188,13 +188,13 @@ const keySearch = [
                 title: {
                     rendered: "nâng cung chân mày giấu chỉ"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-cung-chan-may-giau-chi-co-nguy-hiem-gi-khong/"
             },
             {
                 title: {
                     rendered: "Bao nhiêu tuổi thì nên nâng cung chân mày"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/bao-nhieu-tuoi-thi-nen-nang-cung-chan-may/"
             },
             {
                 title: {
@@ -206,7 +206,7 @@ const keySearch = [
                 title: {
                     rendered: "Tại sao phải treo cung mày"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tai-sao-phai-treo-cung-may-co-loi-ich-gi-khong/"
             },
             {
                 title: {
@@ -218,7 +218,7 @@ const keySearch = [
                 title: {
                     rendered: "Nâng cung mày giá bao nhiêu tiền"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-cung-may-gia-bao-nhieu-tien/"
             },
 			{
                 title: {
@@ -230,7 +230,7 @@ const keySearch = [
                 title: {
                     rendered: "nâng cung chân mày kiêng hải sản bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nang-cung-chan-may-kieng-hai-san-bao-lau-de-nhanh-hoi-phuc/"
             }
         ]
 	},	
@@ -241,13 +241,13 @@ const keySearch = [
                 title: {
                     rendered: "Lấy mỡ mắt là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mat-la-gi-va-co-uu-diem-gi/"
             },
             {
                 title: {
                     rendered: "Lấy mỡ mí mắt trên bao nhiêu tiền"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mi-mat-tren-bao-nhieu-tien/"
             },
             {
                 title: {
@@ -265,13 +265,13 @@ const keySearch = [
                 title: {
                     rendered: "địa chỉ Lấy mỡ mí mắt trên dưới ở đâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-lay-mo-mi-mat-tren-duoi-o-dau-uy-tin/"
             },
             {
                 title: {
                     rendered: "Lấy mỡ mắt kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-mat-kangnam-co-tu-nhien-khong/"
             },
         ]
 	},	
@@ -288,7 +288,7 @@ const keySearch = [
                 title: {
                     rendered: "lấy mỡ bọng mắt nội soi"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/lay-mo-bong-mat-noi-soi-co-de-lai-seo-khong/"
             },
             {
                 title: {
@@ -306,13 +306,13 @@ const keySearch = [
                 title: {
                     rendered: "địa chỉ lấy mỡ mắt nội soi uy tín"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-lay-mo-mat-noi-soi-uy-tin/"
             },
 			 {
                 title: {
                     rendered: "công nghệ lấy mỡ mắt nội soi"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cong-nghe-lay-mo-mat-noi-soi-khong-de-lai-seo/"
             },
             {
                 title: {
@@ -1827,25 +1827,25 @@ const keySearch = [
                 title: {
                     rendered: "Căng chỉ Xline"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-bio-young-la-gi-va-co-uu-diem-gi/"
             },
             {
                 title: {
                     rendered: " Căng chỉ Xline Bio Young"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-bio-young-la-gi-va-co-uu-diem-gi/"
             },
 			{
                 title: {
                     rendered: "Căng chỉ collagen"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-kangnam-cho-nguoi-trung-tuoi/"
             },
             {
                 title: {
                     rendered: " căng chỉ rãnh cười"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-ranh-cuoi-la-gi-co-hieu-qua-khong/"
             },
 			{
                 title: {
@@ -1863,7 +1863,7 @@ const keySearch = [
                 title: {
                     rendered: "địa chỉ căng chỉ uy tín"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-cang-chi-uy-tin-o-ha-noi/"
             }
         ]
     },
@@ -1874,25 +1874,25 @@ const keySearch = [
                 title: {
                     rendered: "căng da mặt kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-da-mat-tai-kangnam-gia-bao-nhieu/"
             },
             {
                 title: {
                     rendered: "căng da mặt có đau không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-da-mat-co-dau-co-sung-khong/"
             },
 			{
                 title: {
                     rendered: "Căng da mặt giá bao nhiêu tiền"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-da-mat-gia-bao-nhieu-tien/"
             },
             {
                 title: {
                     rendered: " sau khi căng da mặt cần lưu ý diều gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/sau-khi-cang-da-mat-can-luu-y-dieu-gi/"
             }
         ]
     },
@@ -1903,43 +1903,43 @@ const keySearch = [
                 title: {
                     rendered: "Căng chỉ Xline là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-bio-young-la-gi-va-co-uu-diem-gi/"
             },
             {
                 title: {
                     rendered: "Căng chỉ Xline tại Kangnam bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-tai-kangnam-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Căng chỉ Xline Bio Young"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-bio-young-la-gi-va-co-uu-diem-gi/"
             },
 			{
                 title: {
                     rendered: "Căng chỉ Xline Bio Young có tác dụng phụ không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-bio-young-co-tac-dung-phu-khong/"
             },
             {
                 title: {
                     rendered: "địa chỉ Căng chỉ Xline Bio Young"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-cang-chi-xline-bio-young-uy-tin/"
             },
 			{
                 title: {
                     rendered: "tại sao gọi Căng chỉ Xline Bio Young"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tai-sao-goi-cang-chi-xline-bio-young/"
             },
             {
                 title: {
                     rendered: " Căng chỉ Xline Bio Young cần kiêng những gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-xline-bio-young-can-kieng-nhung-gi/"
             }
         ]
     },
@@ -1950,25 +1950,25 @@ const keySearch = [
                 title: {
                     rendered: "Căng chỉ collagen là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-kangnam-cho-nguoi-trung-tuoi/"
             },
             {
                 title: {
                     rendered: "Căng chỉ collagen kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-kangnam-cho-nguoi-trung-tuoi/"
             },
 			{
                 title: {
                     rendered: "Căng chỉ collagen cần kiêng những gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-can-kieng-nhung-gi/"
             },
 			{
                 title: {
                     rendered: "căng chỉ collagen có tác dụng phụ không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-co-tac-dung-phu-khong/"
             },
             {
                 title: {
@@ -1980,19 +1980,19 @@ const keySearch = [
                 title: {
                     rendered: "Căng chỉ collagen có tốt không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-co-tot-khong-co-luu-y-gi-khong/"
             },
 			{
                 title: {
                     rendered: "Căng chỉ collagen ở đâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-o-dau-uy-tin-va-tot-nhat/"
             },
             {
                 title: {
                     rendered: " Căng chỉ collagen chi phí bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-collagen-chi-phi-bao-nhieu-tien/"
             }
         ]
     },
@@ -2003,19 +2003,19 @@ const keySearch = [
                 title: {
                     rendered: "căng chỉ rãnh cười"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-ranh-cuoi-la-gi-co-hieu-qua-khong/"
             },
             {
                 title: {
                     rendered: "căng chỉ rãnh cười kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-ranh-cuoi-kangnam-co-uu-diem-gi-noi-bat/"
             },
 			{
                 title: {
                     rendered: "căng chỉ rãnh cười được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-ranh-cuoi-giu-duoc-bao-lau/"
             },
 			{
                 title: {
@@ -2027,19 +2027,19 @@ const keySearch = [
                 title: {
                     rendered: "Căng chỉ rãnh cười bao lâu thì đẹp"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/cang-chi-ranh-cuoi-bao-lau-thi-dep/"
             },
 			{
                 title: {
                     rendered: "tại sao nên căng chỉ rãnh cười"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tai-sao-nhieu-nguoi-nen-cang-chi-ranh-cuoi/"
             },
 			{
                 title: {
                     rendered: "địa chỉ căng chỉ rãnh cười uy tín"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-cang-chi-ranh-cuoi-uy-tin-o-da-nang/"
             }
         ]
     },
@@ -2103,7 +2103,7 @@ const keySearch = [
                 title: {
                     rendered: "Laser Picosure Pro kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/laser-picosure-pro-kangnam-co-uu-diem-gi/"
             },
 			{
                 title: {
@@ -2121,13 +2121,13 @@ const keySearch = [
                 title: {
                     rendered: "trị nám picosure pro có tốt không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tri-nam-picosure-pro-co-tot-khong-co-khac-gi-so-voi-phuong-phap-khac-khong/"
             },
 			{
                 title: {
                     rendered: "Laser pico có tác dụng gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/laser-pico-co-tac-dung-gi-co-ap-dung-cho-da-nhay-cam-khong/"
             },
 			{
                 title: {
@@ -2168,7 +2168,7 @@ const keySearch = [
                 title: {
                     rendered: "Trị nám bằng laser có ảnh hưởng gì không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tri-nam-bang-laser-co-anh-huong-gi-khong/"
             },
             {
                 title: {
@@ -2180,7 +2180,7 @@ const keySearch = [
                 title: {
                     rendered: "Bắn laser trị nám có ảnh hưởng gì không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/ban-laser-tri-nam-co-anh-huong-gi-khong-co-tac-dun-phu-gi-khong/"
             },
 			{
                 title: {
@@ -2203,79 +2203,79 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm filler má"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ma-la-gi-va-toi-can-luu-y-gi-truoc-khi-thuc-hien/"
             },
             {
                 title: {
                     rendered: "Tiêm filler thái dương"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-la-gi-va-quy-trinh-thuc-hien-nhu-the-nao/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler môi"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-la-gi-va-co-an-toan-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler rãnh cười"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ranh-cuoi-la-gi-can-luu-y-dieu-gi/"
             },
             {
                 title: {
                     rendered: "Filler Restylane"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/filler-restylane-la-gi-co-phu-hop-cho-moi-loai-da-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm botox xóa nhăn"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-xoa-nhan-la-gi-va-cach-thuc-hien-nhu-the-nao/"
             },
 			{
                 title: {
                     rendered: "Tiêm Meso Young"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-young-la-gi-co-an-toan-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm BAP Profhilo"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-bap-profhilo-co-khac-gi-so-voi-tiem-filler-hay-botox/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler tại Kangnam giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-tai-kangnam-gia-bao-nhieu-tien/"
             },
             {
                 title: {
                     rendered: "Tiêm filler giá bao nhiêu 1 cc"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-gia-bao-nhieu-1-cc/"
             },
 			{
                 title: {
                     rendered: "1 lần tiêm filler được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/1-lan-tiem-filler-duoc-bao-lau/"
             },
 			{
                 title: {
                     rendered: "Filler cằm giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-cam-giu-duoc-bao-lau/"
             },
 			{
                 title: {
                     rendered: "Tiêm Meso Skin Plus"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-skin-plus-la-gi-co-an-toan-khong/"
             }
         ]
     },
@@ -2292,37 +2292,37 @@ const keySearch = [
                 title: {
                     rendered: "Có nên tiêm filler má không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/co-nen-tiem-filler-ma-khong-va-co-bien-chung-gi-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler má bao lâu thì mềm"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/sau-khi-tiem-filler-ma-thi-bao-lau-co-the-mem/"
             },
 			{
                 title: {
                     rendered: "tiêm filler má có bị sưng không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ma-co-bi-sung-khong/"
             },
             {
                 title: {
                     rendered: "tiêm filler má kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ma-kangnam-co-an-toan-khong/"
             },
 			{
                 title: {
                     rendered: "Sau khi tiêm filler má bao lâu thì mềm"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/sau-khi-tiem-filler-ma-thi-bao-lau-co-the-mem/"
             },
 			{
                 title: {
                     rendered: "địa chỉ tiêm filler má"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-tiem-filler-ma-uy-tin/"
             }
         ]
     },
@@ -2333,43 +2333,43 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm filler thái dương là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-la-gi-va-quy-trinh-thuc-hien-nhu-the-nao/"
             },
             {
                 title: {
                     rendered: "Tiêm filler thái dương có nguy hiểm không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-co-nguy-hiem-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler thái dương bao nhiêu cc"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-bao-nhieu-cc-cho-1-lan/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler thái dương kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-kangnam/"
             },
             {
                 title: {
                     rendered: "Tiêm đầy thái dương giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-day-thai-duong-gia-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler thái dương cần kiêng những gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-can-kieng-nhung-gi/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler thái dương giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-thai-duong-giu-duoc-bao-lau/"
             }
         ]
     },
@@ -2380,43 +2380,43 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm filler môi là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-la-gi-va-co-an-toan-khong/"
             },
             {
                 title: {
                     rendered: "tiêm filler môi xong kiêng gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-xong-kieng-gi-de-nhanh-lanh/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler môi 1cc giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-1cc-gia-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler môi giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-giu-duoc-bao-lau-va-co-nen-tiem-thuong-xuyen-khong/"
             },
             {
                 title: {
                     rendered: "Tiêm môi sau này có ảnh hưởng gì không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-moi-sau-nay-co-anh-huong-gi-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler môi bao lâu thì vào form"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-bao-lau-thi-vao-form/"
             },
 			{
                 title: {
                     rendered: "tiêm filler môi kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-moi-kangnam-duy-tri-duoc-bao-lau/"
             }
         ]
     },
@@ -2427,37 +2427,37 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm filler rãnh cười giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ranh-cuoi-gia-bao-nhieu/"
             },
             {
                 title: {
                     rendered: "Tiêm filler rãnh cười bao lâu thì ổn định"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ranh-cuoi-bao-lau-thi-on-dinh/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler rãnh cười cơ kiêng gì không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ranh-cuoi-co-kieng-gi-khong-de-tranh-bien-chung/"
             },
 			{
                 title: {
                     rendered: "Tiêm rãnh cười tầm bao nhiêu cc"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-ranh-cuoi-tam-bao-nhieu-cc/"
             },
             {
                 title: {
                     rendered: "Tiêm filler rãnh cười có nguy hiểm không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ranh-cuoi-co-nguy-hiem-khong/"
             },
 			{
                 title: {
                     rendered: "Tiêm filler rãnh cười kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-ranh-cuoi-kangnam-co-gay-dau-khong/"
             }
         ]
     },
@@ -2468,37 +2468,37 @@ const keySearch = [
                 title: {
                     rendered: "Filler Restylane giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/filler-restylane-gia-bao-nhieu/"
             },
             {
                 title: {
                     rendered: "filler restylane có tốt không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/filler-restylane-co-tot-khong-co-khac-gi-voi-cac-loai-khac-khong/"
             },
 			{
                 title: {
                     rendered: "Filler Restylane giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/filler-restylane-giu-duoc-bao-lau/"
             },
 			{
                 title: {
                     rendered: "Filler Restylane xuất xứ từ đâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/filler-restylane-xuat-xu-tu-dau-va-co-an-toan-khong/"
             },
             {
                 title: {
                     rendered: "filler restylane kangnam"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-filler-restylane-tai-kangnam-de-lam-day-cac-nep-nhan-tren-mat/"
             },
 			{
                 title: {
                     rendered: "địa chỉ tiêm filler restylane"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/dia-chi-tiem-filler-restylane-tai-ha-noi/"
             }
         ]
     },
@@ -2509,37 +2509,37 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm Meso Young là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-young-la-gi-co-an-toan-khong/"
             },
             {
                 title: {
                     rendered: "Tiêm Meso Young có tác dụng gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-young-co-tac-dung-gi/"
             },
 			{
                 title: {
                     rendered: "Tiêm Meso Young giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/chi-phi-cho-mot-lieu-trinh-tiem-meso-young-la-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Tiêm Meso Young bao lâu 1 lần"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-young-bao-lau-1-lan/"
             },
             {
                 title: {
                     rendered: "Tiêm Meso Young căng bóng da là gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-young-cang-bong-da-la-gi/"
             },
 			{
                 title: {
                     rendered: "Tiêm Meso Young giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-young-giu-duoc-bao-lau/"
             }
         ]
     },
@@ -2550,25 +2550,25 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm meso bao nhiêu tiền 1 lần"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-bao-nhieu-tien-1-lan-va-hieu-qua-keo-dai-bao-lau/"
             },
             {
                 title: {
                     rendered: "Tiêm meso giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-giu-duoc-bao-lau-can-luu-y-dieu-gi/"
             },
 			{
                 title: {
                     rendered: "tiêm meso bao lâu thì da đẹp"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-meso-bao-lau-thi-da-dep-hoan-thien/"
             },
 			{
                 title: {
                     rendered: "Ai không nên tiêm meso"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/nhung-ai-khong-duoc-tiem-meso-va-can-luu-y-dieu-gi/"
             },
             {
                 title: {
@@ -2585,19 +2585,19 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm botox xóa nhăn đuôi mắt giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-xoa-nhan-duoi-mat-gia-bao-nhieu/"
             },
             {
                 title: {
                     rendered: "Tiêm botox xóa nhăn trán giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-xoa-nhan-tran-gia-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Tiêm botox xóa nhăn giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-xoa-nhan-co-the-giu-duoc-bao-lau/"
             },
 			{
                 title: {
@@ -2621,7 +2621,7 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm botox xóa nhăn cau mày"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-xoa-nhan-cau-may-o-tuoi-40/"
             }
         ]
     },
@@ -2632,31 +2632,31 @@ const keySearch = [
                 title: {
                     rendered: "Tiêm botox thon gọn hàm bao lâu cơ hiệu quả"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-thon-gon-ham-bao-lau-co-hieu-qua/"
             },
             {
                 title: {
                     rendered: "Tiêm botox thon gọn hàm giá bao nhiêu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-thon-gon-ham-gia-bao-nhieu/"
             },
 			{
                 title: {
                     rendered: "Tiêm botox gọn hàm giữ được bao lâu"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-gon-ham-giu-duoc-bao-lau-va-khi-nao-can-tiem-nhac-lai/"
             },
 			{
                 title: {
                     rendered: "Tiêm botox gọn hàm có bị hóp má không"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-gon-ham-co-bi-hop-ma-khong/"
             },
 			{
                 title: {
                     rendered: "Sau khi tiêm botox thon gọn hàm nên kiêng gì"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/sau-khi-tiem-botox-thon-gon-ham-nen-kieng-gi/"
             },
 			{
                 title: {
@@ -2668,7 +2668,7 @@ const keySearch = [
                 title: {
                     rendered: "tiêm botox thon gọn hàm ở đâu uy tín"
                 },
-                link: "#"
+                link: "https://hoidap.benhvienkangnam.vn/tiem-botox-thon-gon-ham-o-dau-uy-tin/"
             }
         ]
     },
